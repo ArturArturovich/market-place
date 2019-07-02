@@ -24,7 +24,7 @@ public class AdminController {
 
     @Autowired
     public AdminController(RoleRepository roleRepository,
-                           @Lazy UserService userService){
+                            @Lazy UserService userService){
         this.roleRepository = roleRepository;
         this.userService = userService;
     }
